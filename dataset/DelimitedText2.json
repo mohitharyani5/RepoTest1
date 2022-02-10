@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "@items()",
 				"folderPath": "Input",
 				"container": "praccontainer1"
 			},
