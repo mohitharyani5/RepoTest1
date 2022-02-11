@@ -1,0 +1,9 @@
+{
+	"name": "real1datafact",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "440b3886-7cec-455f-bc2d-a7c4dbe5df52",
+		"tenantId": "e1c28f2e-c71c-4cad-85bb-6737b136b95f"
+	}
+}

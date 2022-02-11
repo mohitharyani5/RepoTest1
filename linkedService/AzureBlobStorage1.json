@@ -1,18 +1,12 @@
 {
 	"name": "AzureBlobStorage1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AzureBlobStorage",
 		"typeProperties": {
-			"connectionString": {
-				"type": "AzureKeyVaultSecret",
-				"store": {
-					"referenceName": "AzureKeyVault1",
-					"type": "LinkedServiceReference"
-				},
-				"secretName": "connectionstrforblobstracc",
-				"secretVersion": "8b08d96c14364fcba5a942a9f1c57f33"
-			}
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=storageaccreal1;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDYxNEZEQ0ZGLTc2QUItNDc5My1BMjY1LTJBMDNBNzdFNjI2OF83ZTQwYzEzYS1lNDJmLTRmOTUtOTNkZS1mMWY5YWUyOTYyYjEiDQp9"
 		}
 	}
 }
