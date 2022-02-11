@@ -1,0 +1,12 @@
+{
+	"name": "SqlServer3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=serverrealtest1.database.windows.net;initial catalog=dbo;user id=adminloginreal1",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDYxNEZEQ0ZGLTc2QUItNDc5My1BMjY1LTJBMDNBNzdFNjI2OF8xYzRhM2U4OS02ZjQxLTQ5MTQtYTVkYS00MWQyNjhiMmNlYzMiDQp9"
+		}
+	}
+}
