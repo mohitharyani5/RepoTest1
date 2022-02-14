@@ -1,0 +1,12 @@
+{
+	"name": "HttpServer2",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbmh0Vm5DQVNxZmgtVHhCSEJwZmtLdTRaNlpHZ3xBQ3Jtc0tsRWRieDN2Szh6TUtVOE10VGtITDlQbHJ4SE81T0RlaXYxVVVRTURMbDFMYk50THJDVVZJSnpZWXhnRUt2NXB6c0VONzhXQl9QeUdFMVBGOEh0ZVNKcE1DTXNtVHJfaml6VDZqdy1oeDhhT3NWazRnWQ&q=https%3A%2F%2Ffile-examples-com.github.io%2Fuploads%2F2017%2F02%2Fzip_2MB.zip",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
